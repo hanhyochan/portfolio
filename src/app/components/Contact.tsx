@@ -126,7 +126,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="text-white text-lg"
         >
-          https://velog.io/@hcartist/series
+          https://velog.io/@hcartist
         </a>
       </div>
       <Toast isVisible={showToast} />
