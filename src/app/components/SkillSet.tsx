@@ -25,21 +25,21 @@ const SkillSet = () => {
     />,
     <Image
       src="/icons/icons8-tailwindCss.svg"
-      title="TailwindCss"
+      title="TailwindCSS"
       alt="tailwindCss"
       width={70}
       height={70}
     />,
     <Image
       src="/icons/icons8-js.svg"
-      title="javascript"
+      title="JavaScript"
       alt="js"
       width={70}
       height={70}
     />,
     <Image
       src="/icons/typescript-svgrepo-com.svg"
-      title="typescript"
+      title="TypeScript"
       alt="ts"
       width={70}
       height={70}
@@ -53,7 +53,7 @@ const SkillSet = () => {
     />,
     <Image
       src="/icons/icons8-next.svg"
-      title="Next"
+      title="Nextjs"
       alt="next"
       width={70}
       height={70}
@@ -77,8 +77,8 @@ const SkillSet = () => {
   const tools = [
     <Image
       src="/icons/icons8-amazon-aws.svg"
-      title="HTML5"
-      alt="HTML5"
+      title="AWS"
+      alt="AWS"
       width={70}
       height={70}
     />,

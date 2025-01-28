@@ -17,4 +17,19 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  overflow: auto;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollable {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none;
 }
