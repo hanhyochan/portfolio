@@ -17,13 +17,13 @@ const Education2 = () => {
         </div>
       </div>
       <div className="flex gap-[1rem]">
-        <div className="w-[7rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+        <div className="w-[7rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
           #프론트엔드
         </div>
-        <div className="w-[5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+        <div className="w-[5rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
           #개발자
         </div>
-        <div className="w-[4rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+        <div className="w-[4rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
           #팀업
         </div>
       </div>

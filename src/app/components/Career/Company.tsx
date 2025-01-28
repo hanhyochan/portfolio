@@ -13,13 +13,13 @@ const Company = () => {
         </div>
       </div>
       <div className="flex gap-[1rem]">
-        <div className="w-[6rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+        <div className="w-[6rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
           #디자이너
         </div>
-        <div className="w-[5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+        <div className="w-[5rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
           #UIUX
         </div>
-        <div className="w-[6rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+        <div className="w-[6rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
           #건물안내
         </div>
       </div>

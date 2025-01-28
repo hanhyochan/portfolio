@@ -15,13 +15,13 @@ const Education1 = () => {
         </div>
       </div>
       <div className="flex gap-[1rem]">
-        <div className="w-[5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+        <div className="w-[5rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
           #디자인
         </div>
-        <div className="w-[5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+        <div className="w-[5rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
           #UIUX
         </div>
-        <div className="w-[4rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+        <div className="w-[4rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
           #팀업
         </div>
       </div>

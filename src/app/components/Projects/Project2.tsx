@@ -11,7 +11,7 @@ const Project2 = () => {
         className="rounded-[0.5rem] w-[665] h-[471px]"
       />
       <div className="flex flex-col gap-[1.5rem]">
-        <div className="flex flex-col gap-[1rem] p-[1rem] bg-neutral-500 rounded-[0.5rem] w-[100%]">
+        <div className="flex flex-col gap-[1rem] p-[1rem] bg-neutral-500 rounded-[0.5rem] w-[40rem]">
           <h3 className="text-3xl font-medium text-white">
             Hyo_Moive_OTT: 영화 소개 사이트
           </h3>
@@ -43,10 +43,10 @@ const Project2 = () => {
         <div className="flex flex-col gap-[0.5rem] text-lg text-white">
           <p className="font-extrabold">사용기술</p>
           <div className="flex gap-[1rem] mt-[0.5rem]">
-            <div className="w-[5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+            <div className="w-[5rem] h-[2rem] bg-react-color flex justify-center items-center text-white rounded-[5rem]">
               React
             </div>
-            <div className="w-[5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+            <div className="w-[5rem] h-[2rem] bg-scss-color flex justify-center items-center text-white rounded-[5rem]">
               SCSS
             </div>
           </div>

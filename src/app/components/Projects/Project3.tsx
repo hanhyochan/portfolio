@@ -11,7 +11,7 @@ const Project3 = () => {
         className="rounded-[0.5rem] w-[665px] h-[471px]"
       />
       <div className="flex flex-col gap-[1.5rem]">
-        <div className="flex flex-col gap-[1rem] p-[1rem] bg-neutral-500 rounded-[0.5rem] w-[100%]">
+        <div className="flex flex-col gap-[1rem] p-[1rem] bg-neutral-500 rounded-[0.5rem] w-[40rem]">
           <h3 className="text-3xl font-medium text-white">
             desub: 디자인 월 구독 서비스
           </h3>
@@ -42,13 +42,13 @@ const Project3 = () => {
         <div className="flex flex-col gap-[0.5rem] text-lg text-white">
           <p className="font-extrabold">사용기술</p>
           <div className="flex gap-[1rem] mt-[0.5rem]">
-            <div className="w-[5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+            <div className="w-[5rem] h-[2rem] bg-black flex justify-center items-center text-white rounded-[5rem]">
               Nextjs
             </div>
-            <div className="w-[7.5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+            <div className="w-[7.5rem] h-[2rem] bg-typescript-color flex justify-center items-center text-white rounded-[5rem]">
               TypeScript
             </div>
-            <div className="w-[8.5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
+            <div className="w-[8.5rem] h-[2rem] bg-tailwindCSS-color flex justify-center items-center text-white rounded-[5rem]">
               TailwindCSS
             </div>
           </div>

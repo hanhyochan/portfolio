@@ -106,7 +106,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="text-white text-lg"
         >
-          나의 깃허브 바로가기
+          https://github.com/hanhyochan
         </a>
       </div>
       {/* 벨로그 */}
@@ -126,7 +126,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="text-white text-lg"
         >
-          나의 벨로그 바로가기
+          https://velog.io/@hcartist/series
         </a>
       </div>
       <Toast isVisible={showToast} />
