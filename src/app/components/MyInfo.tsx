@@ -61,9 +61,9 @@ const MyInfo = () => {
           <h1 className="text-4xl font-bold">
             "프론트엔드개발자, 한효찬입니다."
           </h1>
-          <p className="text-lg">
+          <p className="text-lg font-medium">
             더 나은 결과를 만들어내는 과정에는 &nbsp;
-            <strong>조금만 더</strong>
+            <strong className="font-extrabold">조금만 더</strong>
             &nbsp;해보는 자세가 있다고 생각합니다.
             <br />
             끝난 것에 안주하지 않고 끊임없이 고민해보며 가장 최선의 결과물을
