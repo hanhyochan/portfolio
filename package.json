@@ -12,8 +12,8 @@
     "next": "15.1.6",
     "pnpm": "^9.15.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "sass": "^1.83.4"
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

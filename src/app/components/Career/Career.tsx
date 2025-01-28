@@ -4,7 +4,7 @@ import Education2 from "./Education2";
 
 const Career = () => {
   return (
-    <div className="w-full mt-[5rem] py-[3rem] border-t-2 border-neutral-400 flex flex-col gap-[3rem]">
+    <div className="w-full mt-[5rem] flex flex-col gap-[3rem]">
       <h3 className="text-3xl font-bold text-neutral-600">
         Education / Career
       </h3>

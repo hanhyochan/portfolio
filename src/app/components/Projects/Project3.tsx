@@ -4,11 +4,11 @@ const Project3 = () => {
   return (
     <div className="w-full mt-[5rem] h-[37rem] bg-neutral-middle flex gap-[3rem] p-[4rem] rounded-[3rem]">
       <Image
-        src="/images/image.gif"
+        src="/images/desub.png"
         alt="Chaeuda"
-        width={0}
-        height={0}
-        className="rounded-[0.5rem] w-[665] h-[471px]"
+        width={665}
+        height={471}
+        className="rounded-[0.5rem] w-[665px] h-[471px]"
       />
       <div className="flex flex-col gap-[1.5rem]">
         <div className="flex flex-col gap-[1rem] p-[1rem] bg-neutral-500 rounded-[0.5rem] w-[100%]">

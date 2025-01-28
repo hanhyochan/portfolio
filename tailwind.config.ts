@@ -12,6 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         "neutral-middle": "rgb(141, 141, 141)",
+        "neutral-dark": "rgb(95, 95, 95)",
       },
     },
   },
