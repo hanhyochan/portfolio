@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Project1 = () => {
+const Project3 = () => {
   return (
     <div className="w-full mt-[5rem] h-[37rem] bg-neutral-middle flex gap-[3rem] p-[4rem] rounded-[3rem]">
       <Image
@@ -13,7 +13,7 @@ const Project1 = () => {
       <div className="flex flex-col gap-[1.5rem]">
         <div className="flex flex-col gap-[1rem] p-[1rem] bg-neutral-500 rounded-[0.5rem] w-[100%]">
           <h3 className="text-3xl font-medium text-white">
-            채우다(Chaeuda): 빈집 매매 플랫폼
+            desub: 디자인 월 구독 서비스
           </h3>
           <div className="flex gap-[1rem] items-center">
             <svg
@@ -28,21 +28,16 @@ const Project1 = () => {
               />
             </svg>
             <p className="text-white text-lg">
-              2024.12 - 2025.01 &nbsp;&nbsp;|&nbsp;&nbsp; Team
+              2025.01 - &nbsp;&nbsp;|&nbsp;&nbsp; Team
             </p>
           </div>
         </div>
         <div className="flex flex-col gap-[0.5rem] text-lg text-white">
           <p className="font-extrabold">상세설명 및 주요기능</p>
-          <p className="font-medium">
-            시골의 방치된 빈집과 사람을 연결시켜주는 빈집 매매 플랫폼, 채우다
-          </p>
-          <p>
-            • 자체 회원가입/로그인, 3가지 소셜(카카오, 네이버,
-            구글)회원가입/로그인 기능
-          </p>
-          <p>• 시골 빈집 등록(영상+이미지) 및 지도 검색 기능</p>
-          <p>• 판매자와 구매자 간 실시간 채팅 기능</p>
+          <p className="font-medium">디자인 업무 및 상담 월 구독 서비스</p>
+          <p>• 사이트 내 애니메이션 및 모션(진행중)</p>
+          <p>• 자체 회원가입/로그인, 구글 소셜 회원가입/로그인 구현(예정)</p>
+          <p>• 결제 기능 구현(예정)</p>
         </div>
         <div className="flex flex-col gap-[0.5rem] text-lg text-white">
           <p className="font-extrabold">사용기술</p>
@@ -56,34 +51,11 @@ const Project1 = () => {
             <div className="w-[8.5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
               TailwindCSS
             </div>
-            <div className="w-[5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
-              Vercel
-            </div>
-            <div className="w-[5rem] h-[2rem] bg-neutral-400 flex justify-center items-center text-white rounded-[5rem]">
-              AWS
-            </div>
           </div>
         </div>
         <div className="flex gap-[1.5rem] mt-[0.5rem]">
           <a
-            href="https://www.chaeuda.shop/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white font-bold text-lg flex items-center gap-[0.5rem]"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 512"
-              width="20"
-              height="20"
-              fill="white"
-            >
-              <path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z" />
-            </svg>
-            Live link
-          </a>
-          <a
-            href="https://github.com/hanhyochan/oz-main-fe-06-team2"
+            href="https://github.com/oz-dbre/desub_FE/tree/develop"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white font-bold text-lg flex items-center gap-[0.5rem]"
@@ -105,4 +77,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Project3;
