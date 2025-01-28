@@ -26,7 +26,7 @@ export default function Home() {
         <p className="mt-[2rem] text-2xl text-neutral-300 font-regular">
           Thank you for watching!
         </p>
-        <div className="w-full grid grid-cols-2 gap-[3rem] mt-[4rem]">
+        <div className="w-full grid grid-cols-4 gap-[3rem] mt-[4rem]">
           <Contact />
         </div>
       </div>
