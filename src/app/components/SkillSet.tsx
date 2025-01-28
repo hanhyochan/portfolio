@@ -157,7 +157,7 @@ const SkillSet = () => {
           {[...Array(10)].map((_, index) => (
             <div
               key={index}
-              className="aspect-square w-full bg-neutral-100 flex justify-center items-center"
+              className="aspect-square w-full border border-neutral-300 flex justify-center items-center"
             >
               {frontSkills[index % frontSkills.length]}
             </div>
@@ -170,7 +170,7 @@ const SkillSet = () => {
           {[...Array(10)].map((_, index) => (
             <div
               key={index}
-              className="aspect-square w-full bg-neutral-100 flex justify-center items-center"
+              className="aspect-square w-full border border-neutral-300 flex justify-center items-center"
             >
               {tools[index % tools.length]}
             </div>
