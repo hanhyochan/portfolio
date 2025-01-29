@@ -125,25 +125,25 @@ const SkillSet = () => {
     />,
     <Image
       key="AdobePs"
-      src="/icons/icons8-어도비-포토샵.svg"
-      title="Adobe Ps"
-      alt="Adobe Ps"
+      src="/icons/ps.svg"
+      title="AdobePs"
+      alt="AdobePs"
       width={70}
       height={70}
     />,
     <Image
       key="AdobeAi"
       src="/icons/Adobe_Illustrator-Logo.wine.svg"
-      title="Adobe Ai"
-      alt="Adobe Ai"
+      title="AdobeAi"
+      alt="AdobeAi"
       width={150}
       height={150}
     />,
     <Image
       key="AdobeId"
-      src="/icons/icons8-어도비-인디자인.svg"
-      title="Adobe Id"
-      alt="Adobe Id"
+      src="/icons/id.svg"
+      title="AdobeId"
+      alt="AdobeId"
       width={70}
       height={70}
     />,
