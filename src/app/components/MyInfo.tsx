@@ -6,7 +6,7 @@ import classNames from "classnames";
 
 const MyInfo = () => {
   const { width } = useWindowSize();
-  console.log(width);
+
   return (
     <div
       className={classNames(
@@ -49,7 +49,7 @@ const MyInfo = () => {
                 />
               )}
               <a
-                href="https://velog.io/@hcartist/series"
+                href="https://github.com/hanhyochan"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg"

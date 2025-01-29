@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Image from "next/image";
+import useWindowSize from "@/hooks/useWindowSize";
+import classNames from "classnames";
 
 interface ToastProps {
   isVisible: boolean;
@@ -24,6 +26,7 @@ const Toast = ({ isVisible }: ToastProps) => {
 
 const Contact = () => {
   const [showToast, setShowToast] = useState(false);
+  const { width } = useWindowSize();
 
   useEffect(() => {
     let timer: ReturnType<typeof setTimeout>;
@@ -38,7 +41,7 @@ const Contact = () => {
   return (
     <>
       {/* 이메일 */}
-      <div className="bg-neutral-dark rounded-[0.5rem] flex justify-between items-center p-[2rem]">
+      <div className="bg-neutral-dark rounded-[0.5rem] flex flex-wrap justify-between items-center p-[2rem]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
@@ -48,7 +51,9 @@ const Contact = () => {
         >
           <path d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z" />
         </svg>
-        <p className="text-white text-xl">hcartist@naver.com</p>
+        <p className="text-white text-xl">
+          {width > 720 ? "hcartist@naver.com" : "Email"}
+        </p>
         <CopyToClipboard
           text={"hcartist@naver.com"}
           onCopy={() => setShowToast(true)}
@@ -67,7 +72,7 @@ const Contact = () => {
         </CopyToClipboard>
       </div>
       {/* 전화번호 */}
-      <div className="bg-neutral-dark rounded-[0.5rem] flex justify-between items-center p-[2rem]">
+      <div className="bg-neutral-dark rounded-[0.5rem] flex flex-wrap justify-between items-center p-[2rem]">
         <Image
           src="/icons/icons8-phone.svg"
           alt="phone"
@@ -75,7 +80,9 @@ const Contact = () => {
           height={25}
           className="brightness-0 invert"
         />
-        <p className="text-white text-xl">010-2760-4606</p>
+        <p className="text-white text-xl">
+          {width > 720 ? "010-2760-4606" : "Mobile"}
+        </p>
         <CopyToClipboard text={"01027604606"} onCopy={() => setShowToast(true)}>
           <button className="w-[2.5rem] h-[2.5rem] rounded-[10rem] bg-neutral-600 flex justify-center items-center shadow-md shadow-neutral-800 transition-shadow duration-200 active:shadow-none cursor-pointer">
             <svg
@@ -91,7 +98,7 @@ const Contact = () => {
         </CopyToClipboard>
       </div>
       {/* 깃허브 */}
-      <div className="bg-neutral-dark rounded-[0.5rem] flex justify-center items-center p-[2rem] gap-[1.2rem]">
+      <div className="bg-neutral-dark rounded-[0.5rem] flex flex-wrap justify-center items-center px-[1rem] py-[2rem] gap-[1.2rem]">
         <Image
           src="/icons/icons8-github의.svg"
           title="Github"
@@ -101,16 +108,16 @@ const Contact = () => {
           className="brightness-0 invert"
         />
         <a
-          href="https://velog.io/@hcartist/series"
+          href="https://github.com/hanhyochan"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-lg"
         >
-          https://github.com/hanhyochan
+          {width > 720 ? "https://github.com/hyochan" : "Github"}
         </a>
       </div>
       {/* 벨로그 */}
-      <div className="bg-neutral-dark rounded-[0.5rem] flex justify-center items-center p-[2rem] gap-[1.2rem]">
+      <div className="bg-neutral-dark rounded-[0.5rem] flex flex-wrap justify-center items-center p-[2rem] gap-[1.2rem]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
@@ -126,7 +133,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="text-white text-lg"
         >
-          https://velog.io/@hcartist
+          {width > 720 ? "https://velog.io/@hcartist" : "Velog"}
         </a>
       </div>
       <Toast isVisible={showToast} />

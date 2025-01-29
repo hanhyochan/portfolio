@@ -1,17 +1,33 @@
+"use client";
+
 import Image from "next/image";
+import useWindowSize from "@/hooks/useWindowSize";
+import classNames from "classnames";
 
 const Project3 = () => {
+  const { width } = useWindowSize();
+
   return (
-    <div className="w-full mt-[5rem] h-[37rem] bg-neutral-middle flex gap-[3rem] p-[4rem] rounded-[3rem]">
-      <Image
-        src="/images/desub.png"
-        alt="Chaeuda"
-        width={665}
-        height={471}
-        className="rounded-[0.5rem] w-[665px] h-[471px]"
-      />
+    <div
+      className={classNames(
+        "w-full mt-[5rem] min-h-[37rem] bg-neutral-middle p-[4rem] rounded-[3rem] grid grid-cols-2 gap-[3rem]",
+        {
+          "grid-cols-2": width > 1260,
+          "grid-cols-1": width <= 1260,
+        }
+      )}
+    >
+      {width > 1260 && (
+        <Image
+          src="/images/desub.png"
+          alt="Chaeuda"
+          width={665}
+          height={471}
+          className="rounded-[0.5rem] w-[665px] h-[471px]"
+        />
+      )}
       <div className="flex flex-col gap-[1.5rem]">
-        <div className="flex flex-col gap-[1rem] p-[1rem] bg-neutral-500 rounded-[0.5rem] w-[40rem]">
+        <div className="flex flex-col gap-[1rem] p-[1rem] bg-neutral-500 rounded-[0.5rem] w-full">
           <h3 className="text-3xl font-medium text-white">
             desub: 디자인 월 구독 서비스
           </h3>
