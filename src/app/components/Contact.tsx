@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Image from "next/image";
 import useWindowSize from "@/hooks/useWindowSize";
-import classNames from "classnames";
 
 interface ToastProps {
   isVisible: boolean;

@@ -20,7 +20,7 @@ const MyInfo = () => {
       <div className="flex flex-col justify-between p-[3rem]">
         <div className="flex flex-col gap-[2rem]">
           <h1 className="text-4xl font-bold">
-            "프론트엔드개발자, 한효찬입니다."
+            &quot;프론트엔드개발자, 한효찬입니다.&quot;
           </h1>
           {width > 720 && (
             <p className="text-lg font-medium">

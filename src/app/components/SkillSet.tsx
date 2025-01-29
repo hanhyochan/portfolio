@@ -9,6 +9,7 @@ const SkillSet = () => {
 
   const frontSkills = [
     <Image
+      key="html5"
       src="/icons/icons8-html-5.svg"
       title="HTML5"
       alt="html5"
@@ -16,6 +17,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="css3"
       src="/icons/icons8-css3.svg"
       title="CSS3"
       alt="css3"
@@ -23,6 +25,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="sass"
       src="/icons/icons8-sass.svg"
       title="Sass"
       alt="sass"
@@ -30,6 +33,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="tailwindCss"
       src="/icons/icons8-tailwindCss.svg"
       title="TailwindCSS"
       alt="tailwindCss"
@@ -37,6 +41,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="js"
       src="/icons/icons8-js.svg"
       title="JavaScript"
       alt="js"
@@ -44,6 +49,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="ts"
       src="/icons/typescript-svgrepo-com.svg"
       title="TypeScript"
       alt="ts"
@@ -51,6 +57,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="react"
       src="/icons/icons8-react-a-javascript-library-for-building-user-interfaces.svg"
       title="React"
       alt="react"
@@ -58,6 +65,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="next"
       src="/icons/icons8-next.svg"
       title="Nextjs"
       alt="next"
@@ -65,6 +73,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="axios"
       src="/icons/Azios.svg"
       title="Axios"
       alt="axios"
@@ -72,6 +81,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="redux"
       src="/icons/icons8-redux.svg"
       title="Redux"
       alt="redux"
@@ -82,6 +92,7 @@ const SkillSet = () => {
 
   const tools = [
     <Image
+      key="AWS"
       src="/icons/icons8-amazon-aws.svg"
       title="AWS"
       alt="AWS"
@@ -89,6 +100,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="Github"
       src="/icons/icons8-github의.svg"
       title="Github"
       alt="Github"
@@ -96,6 +108,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="Figma"
       src="/icons/icons8-피그마.svg"
       title="Figma"
       alt="Figma"
@@ -103,6 +116,7 @@ const SkillSet = () => {
       height={60}
     />,
     <Image
+      key="AdobeXD"
       src="/icons/icons8-adobe-xd.svg"
       title="Adobe XD"
       alt="Adobe XD"
@@ -110,6 +124,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="AdobePs"
       src="/icons/icons8-어도비-포토샵.svg"
       title="Adobe Ps"
       alt="Adobe Ps"
@@ -117,6 +132,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="AdobeAi"
       src="/icons/Adobe_Illustrator-Logo.wine.svg"
       title="Adobe Ai"
       alt="Adobe Ai"
@@ -124,6 +140,7 @@ const SkillSet = () => {
       height={150}
     />,
     <Image
+      key="AdobeId"
       src="/icons/icons8-어도비-인디자인.svg"
       title="Adobe Id"
       alt="Adobe Id"
@@ -131,6 +148,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="Jira"
       src="/icons/Jira.svg"
       title="Jira"
       alt="Jira"
@@ -138,6 +156,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="Slack"
       src="/icons/icons8-slack-replace-email,-text-messaging,-and-instant-messaging-for-your-team.svg"
       title="Slack'"
       alt="Slack"
@@ -145,6 +164,7 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="Rhino3d"
       src="/icons/rhinoceros-svgrepo-com.svg"
       title="Rhino3d"
       alt="Rhino3d"
