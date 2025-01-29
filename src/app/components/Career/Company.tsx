@@ -1,4 +1,10 @@
+"use client";
+
+import useWindowSize from "@/hooks/useWindowSize";
+
 const Company = () => {
+  const { width } = useWindowSize();
+
   return (
     <div className="h-[30rem] bg-neutral-100 rounded-[0.5rem] flex flex-col gap-[1rem] p-[2rem] justify-between">
       <div className="flex flex-col gap-[1.5rem]">
@@ -12,17 +18,19 @@ const Company = () => {
           <p>• 카드뉴스 컨텐츠 디자인</p>
         </div>
       </div>
-      <div className="flex gap-[1rem]">
-        <div className="w-[6rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
-          #디자이너
+      {width > 1240 && (
+        <div className="flex gap-[1rem]">
+          <div className="w-[6rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
+            #디자이너
+          </div>
+          <div className="w-[5rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
+            #UIUX
+          </div>
+          <div className="w-[6rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
+            #건물안내
+          </div>
         </div>
-        <div className="w-[5rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
-          #UIUX
-        </div>
-        <div className="w-[6rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
-          #건물안내
-        </div>
-      </div>
+      )}
     </div>
   );
 };

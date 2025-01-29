@@ -1,4 +1,10 @@
+"use client";
+
+import useWindowSize from "@/hooks/useWindowSize";
+
 const Education2 = () => {
+  const { width } = useWindowSize();
+
   return (
     <div className="h-[30rem] bg-neutral-100 rounded-[0.5rem] flex flex-col gap-[1rem] p-[2rem] justify-between">
       <div className="flex flex-col gap-[1.5rem]">
@@ -16,17 +22,19 @@ const Education2 = () => {
           <p>• 팀업 프로젝트 진행</p>
         </div>
       </div>
-      <div className="flex gap-[1rem]">
-        <div className="w-[7rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
-          #프론트엔드
+      {width > 1240 && (
+        <div className="flex gap-[1rem]">
+          <div className="w-[7rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
+            #프론트엔드
+          </div>
+          <div className="w-[5rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
+            #개발자
+          </div>
+          <div className="w-[4rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
+            #팀업
+          </div>
         </div>
-        <div className="w-[5rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
-          #개발자
-        </div>
-        <div className="w-[4rem] h-[2rem] bg-purple-400 flex justify-center items-center text-white rounded-[5rem]">
-          #팀업
-        </div>
-      </div>
+      )}
     </div>
   );
 };

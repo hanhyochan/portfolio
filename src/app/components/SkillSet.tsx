@@ -1,6 +1,12 @@
+"use client";
+
 import Image from "next/image";
+import useWindowSize from "@/hooks/useWindowSize";
+import classNames from "classnames";
 
 const SkillSet = () => {
+  const { width } = useWindowSize();
+
   const frontSkills = [
     <Image
       src="/icons/icons8-html-5.svg"
@@ -153,7 +159,12 @@ const SkillSet = () => {
         <h3 className="text-2xl font-bold text-neutral-400">
           FrontEnd / language
         </h3>
-        <div className="w-full grid grid-cols-5 grid-rows-2 gap-[1rem]">
+        <div
+          className={classNames("w-full grid gap-[1rem]", {
+            "grid-cols-5 grid-rows-2": width > 1200,
+            "grid-cols-3 grid-rows-3": width <= 1200,
+          })}
+        >
           {[...Array(10)].map((_, index) => (
             <div
               key={index}
@@ -166,7 +177,12 @@ const SkillSet = () => {
       </div>
       <div className="w-full h-[30rem] border border-neutral-400 rounded-[2rem] flex flex-col gap-[3rem] p-[3rem]">
         <h3 className="text-2xl font-bold text-neutral-400">Tools</h3>
-        <div className="w-full grid grid-cols-5 grid-rows-2 gap-[1rem]">
+        <div
+          className={classNames("w-full grid gap-[1rem]", {
+            "grid-cols-5 grid-rows-2": width > 1200,
+            "grid-cols-3 grid-rows-3": width <= 1200,
+          })}
+        >
           {[...Array(10)].map((_, index) => (
             <div
               key={index}
