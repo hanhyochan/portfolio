@@ -8,7 +8,7 @@ import classNames from "classnames";
 
 const Career = () => {
   const { width } = useWindowSize();
-  console.log(width);
+
   return (
     <div className="w-full mt-[5rem] flex flex-col gap-[3rem]">
       <h3 className="text-3xl font-bold text-neutral-600">
