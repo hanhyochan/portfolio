@@ -109,7 +109,7 @@ const MyInfo = () => {
             alt="profile"
             layout="fill"
             objectFit="cover"
-            className="opacity-80 rounded-r-[0.5rem]"
+            className="opacity-80 rounded-r-[0.6rem]"
           />
         </div>
       )}
