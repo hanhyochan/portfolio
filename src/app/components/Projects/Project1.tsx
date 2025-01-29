@@ -10,7 +10,7 @@ const Project1 = () => {
   return (
     <div
       className={classNames(
-        "w-full mt-[5rem] min-h-[37rem] bg-neutral-middle p-[4rem] rounded-[3rem] grid grid-cols-2 gap-[3rem]",
+        "w-full mt-[5rem] min-h-[37rem] bg-neutral-middle p-[4rem] rounded-[3rem] grid gap-[3rem]",
         {
           "grid-cols-2": width > 1260,
           "grid-cols-1": width <= 1260,
