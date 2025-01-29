@@ -100,6 +100,14 @@ const SkillSet = () => {
       height={70}
     />,
     <Image
+      key="vercel"
+      src="/icons/logo-vercel-svgrepo-com.svg"
+      title="Vercel"
+      alt="Vercel"
+      width={70}
+      height={70}
+    />,
+    <Image
       key="Github"
       src="/icons/icons8-github의.svg"
       title="Github"
@@ -160,14 +168,6 @@ const SkillSet = () => {
       src="/icons/icons8-slack-replace-email,-text-messaging,-and-instant-messaging-for-your-team.svg"
       title="Slack'"
       alt="Slack"
-      width={70}
-      height={70}
-    />,
-    <Image
-      key="Rhino3d"
-      src="/icons/rhinoceros-svgrepo-com.svg"
-      title="Rhino3d"
-      alt="Rhino3d"
       width={70}
       height={70}
     />,
