@@ -24,7 +24,7 @@ export default function Home() {
       <div className="w-full flex flex-col items-center bg-neutral-400 mt-[1rem] lg:px-[10rem] md:px-[5rem] sm:px-[2rem] pt-[6rem] pb-[8rem]">
         <h2 className="font-bold text-6xl text-white">My Projects</h2>
         <Project1 />
-        <Project2 />
+        {/* <Project2 /> */}
         <Project3 />
       </div>
       <div className="w-full flex flex-col items-center bg-neutral-500 pt-[6rem] pb-[10rem] lg:px-[10rem] md:px-[5rem] sm:px-[2rem]">
